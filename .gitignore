@@ -1,0 +1,29 @@
+ ---
+.ipynb_checkpoints/        # Temporary checkpoints created by Jupyter
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# --- Python Environments ---
+.env                       # Environment variables (API keys, secrets)
+.venv/                     # Python virtual environments
+venv/
+env/
+bin/
+lib/
+share/python-wheels/
+include/
+
+# --- Machine Learning Assets ---
+data/                      # Large raw datasets
+models/*.h5                # Large model files (Keras/TensorFlow)
+models/*.pkl               # Pickled models (Scikit-learn)
+models/*.pth               # PyTorch models
+outputs/                   # Generated plots, logs, or results
+
+# --- General Python ---
+__pycache__/               # Compiled Python files
+*.py[cod]
+*$py.class
+dist/
+build/
+*.egg-info/
